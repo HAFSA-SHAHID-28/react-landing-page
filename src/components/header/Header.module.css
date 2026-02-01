@@ -1,0 +1,24 @@
+.header {
+  background-color: rgba(20, 46, 108, 0.9);
+  padding: 20px 60px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: Poppins, sans-serif;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: white !important;
+}
+
+
+/* navbar links */
+:global(.navbar-nav .nav-link) {
+  color: #ffffff93;
+}
+
+:global(.navbar-nav .nav-link:hover) {
+  color: #fff;
+}
