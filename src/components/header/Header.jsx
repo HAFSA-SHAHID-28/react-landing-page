@@ -5,7 +5,7 @@ const Header = () => {
         <>
             <nav className={`navbar navbar-expand-lg ${styles.header}`}>
                 <div className="container-xxl">
-                    <a className={`navbar-brand ${styles.logo}`} href="#"> SoftLand</a>
+                    <a className={`navbar-brand ${styles.logo}`} href="#home"> SoftLand</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
                         <span className="navbar-toggler-icon"></span>
                     </button>
