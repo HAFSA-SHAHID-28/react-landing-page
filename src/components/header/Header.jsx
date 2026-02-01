@@ -24,14 +24,14 @@ const Header = () => {
                                 <a className="nav-link" href="#pricing">Pricing</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" >
+                                <a className="nav-link dropdown-toggle" href="#dropdown" role="button" data-bs-toggle="dropdown" >
                                     Dropdown
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Dropdown 1</a></li>
-                                    <li><a className="dropdown-item" href="#">Dropdown 2</a></li>
-                                    <li><a className="dropdown-item" href="#">Dropdown 3</a></li>
-                                    <li><a className="dropdown-item" href="#">Dropdown 4</a></li>
+                                    <li><a className="dropdown-item" href="#dropdown">Dropdown 1</a></li>
+                                    <li><a className="dropdown-item" href="#dropdown">Dropdown 2</a></li>
+                                    <li><a className="dropdown-item" href="#dropdown">Dropdown 3</a></li>
+                                    <li><a className="dropdown-item" href="#dropdown">Dropdown 4</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
