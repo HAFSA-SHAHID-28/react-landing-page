@@ -15,7 +15,15 @@ const Footer = () => {
                     <a href="https://hafsa-portfoolio.netlify.app/" target="blank"><i class="fa-solid fa-address-book"></i></a>
                 </div>
                 <div className={styles.footerContainer}>
-                    
+                    <div className={styles.copyright}>
+                        <span>Copyright</span>
+                        <strong className={styles.bold}>SoftLand</strong>
+                        <span>All Rights Reserved</span>
+                    </div>
+                    <div className={styles.belong}>
+                        <span>Designed By</span>
+                        <a href="https://hafsa-portfoolio.netlify.app/">HafsaShahid</a>
+                    </div>
                 </div>
             </div>
         </footer>

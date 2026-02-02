@@ -54,3 +54,30 @@
 .footerContainer{
     max-width: 1320px;
 }
+
+.copyright{
+    padding-top: 25px;
+    border-top: 1px solid color-mix(in srgb, #ffffff, transparent 90%);
+}
+
+.copyright .bold{
+    padding-right: .50rem;
+    padding-left: .50rem ;
+}
+
+.belong{
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.belong a{
+    color: #559bcc;
+    text-decoration: none;
+    transition: 0.3s;
+    padding-left: .50rem;
+}
+
+.belong a:hover{
+   color:  color-mix(in srgb, #559bcc, transparent 25%);
+    text-decoration: none;
+}
