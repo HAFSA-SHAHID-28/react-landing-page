@@ -22,8 +22,8 @@ const Hero = () => {
                 </div>
             </div>
             <div className={styles.heroImg}>
-                <img className={styles.phone1} src={Mobile1} alt="Mobile Image" />
-                <img className={styles.phone2} src={Mobile2} alt="Mobile Image" />
+                <img className={styles.phone1} src={Mobile1} alt="Mobile1" />
+                <img className={styles.phone2} src={Mobile2} alt="Mobile2" />
             </div>
         </div>
     </section>
