@@ -6,7 +6,7 @@ const Hero = () => {
 
   return (
     <>
-    <section className={styles.hero}>
+    <section className={styles.hero} id="hero">
         <div className={`container-xxl d-flex ${styles.heroSec}`}>
             <div className={styles.heroContent}>
                 <h2>Promote Your App with SoftLand</h2>

@@ -23,6 +23,11 @@
     color: #559bcc;
 }
 
+.card:hover i {
+    background-color: #559bcc;
+    color: #ffffff;
+}
+
 .card h3 {
     margin-bottom: 10px;
     font-size: 24px;
