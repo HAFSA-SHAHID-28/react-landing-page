@@ -1,22 +1,22 @@
-.about{
+.about {
     color: #212529;
     background-color: #ffffff;
-    padding: 60px 0;
+    padding: 120px 0px;
     scroll-margin-top: 90px;
     overflow: clip;
 }
 
-.aboutContainer{
+.aboutContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.aboutContent{
+.aboutContent {
     width: 38%;
 }
 
-.aboutContent h3{
+.aboutContent h3 {
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
@@ -29,20 +29,20 @@
     margin-bottom: .5rem;
 }
 
-.aboutContent h2{
+.aboutContent h2 {
     font-weight: 700;
     color: #2d465e;
     font-size: 2rem;
 }
 
-.aboutContent p{
+.aboutContent p {
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 16px;
     color: #212529;
 }
 
-.readMore{
+.readMore {
     background: #559bcc;
     color: #ffffff;
     font-weight: 500;
@@ -58,7 +58,7 @@
 }
 
 .readMore:hover {
-    background: color-mix(in srgb, #559bcc , transparent 20%);
+    background: color-mix(in srgb, #559bcc, transparent 20%);
     padding-right: 19px;
 }
 
@@ -67,8 +67,58 @@
     margin-left: 5px;
     line-height: 0;
     transition: 0.3s;
+    margin-top: 2px;
 }
 
 .readMore:hover i {
-    margin-left: 10px;
+    margin-left: 15px;
+}
+
+.aboutCard {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.colLeft{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    gap: 30px;
+}
+
+.colRight{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+/* responsiveness */
+
+@media (max-width: 500px) {
+    .about {
+        padding: 20px 20px;
+    }
+
+    .aboutContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .aboutContent {
+    width: 100%;
+}
+
+.aboutContent h2{
+    font-size: 23px;
+}
+
+.aboutCard {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+  
+
 }

@@ -12,7 +12,7 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav ms-auto d-flex">
                             <li className="nav-item">
-                                <a className="nav-link" href="#home">Home</a>
+                                <a className="nav-link" href="#hero">Home</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#about">About</a>
