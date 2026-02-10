@@ -3,6 +3,7 @@ import Mobile1 from "../../assets/mobile1.png"
 import Mobile2 from "../../assets/mobile2.png"
 
 const Hero = () => {
+
   return (
     <>
     <section className={styles.hero}>
@@ -12,11 +13,11 @@ const Hero = () => {
                 <p>We are team of talented designers making websites with Bootstrap</p>
                 <div className={styles.btn}>
                     <a href="https://play.google.com/" target="blank">
-                        <i class="fa-brands fa-google-play"></i>
+                        <i className="fa-brands fa-google-play"></i>
                         <span>Google Play</span>
                     </a>
                     <a href="https://www.apple.com/app-store/" target="blank">
-                        <i class="fa-brands fa-apple"></i>
+                        <i className="fa-brands fa-apple"></i>
                         <span>App store</span>
                     </a>
                 </div>
