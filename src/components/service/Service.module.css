@@ -1,0 +1,60 @@
+.service{
+    color: #212529;
+    background-color: #ffffff;
+    padding: 60px 0;
+    scroll-margin-top: 90px;
+    overflow: clip;
+    padding: 20px 60px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 80px;
+}
+
+.serviceContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceImg{
+    transform: translateZ(0) scale(1);
+    margin-bottom: 20px;
+}
+
+.serviceImg img{
+    max-width: 575px;
+    vertical-align: middle;
+}
+
+.serviceCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width: 800px){
+    .serviceCard{
+    flex-direction: column;
+}
+}
+
+
+@media (max-width: 500px) {
+
+    .benefit {
+        padding: 20px 20px;
+    }
+
+    .serviceImg img{
+    width: 320px;
+}
+
+}
+
+@media (max-width: 300px){
+    .serviceImg img{
+    width: 100%;
+}
+}

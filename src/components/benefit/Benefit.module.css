@@ -9,30 +9,50 @@
     margin-top: 50px;
 }
 
-.benefitContainer{
+.benefitContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.benefitContainer h2{
+.benefitContainer h2 {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 15px;
     color: #2d465e;
 }
 
-.benefitContainer p{
+.benefitContainer p {
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 16px;
     color: #212529;
 }
 
-.benefitImage{
+.benefitImage {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+
+@media (max-width: 800px) {
+    .benefitImage {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .benefit {
+        padding: 20px 20px;
+    }
+
+    .benefitImage {
+        flex-direction: column;
+    }
+
 }

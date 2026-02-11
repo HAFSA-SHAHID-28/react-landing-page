@@ -1,4 +1,4 @@
-.card{
+.card {
     background-color: #ffffff;
     color: #212529;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
@@ -10,12 +10,12 @@
     position: relative;
 }
 
-.image{
+.image {
     position: relative;
     padding: 20px 20px 0 20px;
 }
 
-.icons{
+.icons {
     border: 4px solid #ffffff;
     color: #559bcc;
     background-color: color-mix(in srgb, #559bcc 10%, white 100%);
@@ -34,7 +34,7 @@
     transition: 0.3s;
 }
 
-.card:hover .icons{
+.card:hover .icons {
     background-color: #559bcc;
     color: #ffffff;
 }
@@ -48,9 +48,34 @@ h2 {
     color: #2d465e;
 }
 
-p{
+p {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 0;
     padding: 0 30px 30px 30px;
+}
+
+
+@media (max-width:1100px) {
+    .icons {
+        top: 196px;
+        width: 62px;
+        height: 62px;
+    }
+
+}
+
+@media (max-width:800px) {
+    .icons {
+        top: 296px;
+        width: 72px;
+        height: 72px
+    }
+}
+
+@media (max-width:400px) {
+    .card {
+        width: 320px;
+        height: 565px;
+    }
 }

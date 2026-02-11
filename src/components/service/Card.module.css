@@ -1,0 +1,50 @@
+.card {
+    background: color-mix(in srgb, #212529, transparent 97%);
+    padding: 50px 30px;
+    transition: all ease-in-out 0.3s;
+    height: 100%;
+    position: relative;
+}
+
+.card:hover {
+    background: #559bcc;
+    padding: 30px 30px 70px 30px;
+}
+
+.card span{
+    color: #559bcc;
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0;
+    color: #2d465e;
+}
+
+.card p{
+    font-size: 15px;
+    color: color-mix(in srgb, #212529, transparent 10%);
+    margin: 0;
+    padding: 0;
+}
+
+.card:hover span, .card:hover h4, .card:hover p {
+    color: #ffffff;
+}
+
+@media (max-width:400px) {
+    .card {
+        width: 320px;
+    }
+}
+
+@media (max-width: 300px){
+    .card{
+    width: 100%;
+}
+}
