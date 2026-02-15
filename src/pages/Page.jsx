@@ -4,6 +4,7 @@ import Header from "../components/header/Header"
 import About from "../components/about/About"
 import Benefit from "../components/benefit/Benefit"
 import Service from "../components/service/Service"
+import Features from "../components/features/Features"
 
 
 const Page = () => {
@@ -14,6 +15,7 @@ const Page = () => {
     <About/>
     <Benefit/>
     <Service/>
+    <Features/>
     <Footer/>
     </>
   )

@@ -13,7 +13,7 @@ const cards = [
 const Benefit = () => {
   return (
     <>
-        <section className={styles.benefit}>
+        <section className={styles.benefit} id="benefit">
             <div className="container-xxl">
                 <div className={styles.benefitContainer}>
                     <h2>Save your time to using SoftLand</h2>
